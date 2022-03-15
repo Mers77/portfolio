@@ -68,7 +68,7 @@ body {
 }
 
 .button {
-  background: #370080;
+  background: var(--color);
   color: var(--text-color-light);
   height: 3.5rem;
   display: inline-flex;
@@ -124,7 +124,7 @@ body {
 }
 
 .section header strong {
-  color: var(--base-color);
+  color: var(--color);
 }
 
 .text {
@@ -178,7 +178,7 @@ main {
 }
 
 .logo span {
-  color: var(--base-color);
+  color: var(--color);
 }
 
 .logo-alt span {
@@ -206,14 +206,14 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a i:hover,
 nav ul li a.active {
-  color: var(--base-color);
+  color: var(--color);
 }
 
 nav ul li a::after {
   content: '';
   width: 0%;
   height: 2px;
-  background: var(--base-color);
+  background: var(--color);
 
   position: absolute;
   left: 0;
@@ -272,7 +272,7 @@ nav.show ul.grid {
 
 /* toggle menu */
 .toggle {
-  color: var(--base-color);
+  color: var(--color);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -303,10 +303,6 @@ nav.show div.icon-close {
   margin: 0;
 }
 
-#home .image img {
-  display: none;
-}
-
 #home .button {
   margin: 2rem;
 }
@@ -315,7 +311,7 @@ nav.show div.icon-close {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
-  color: #5800ca;
+  color: var(--color);
 }
 
 #home .text h1 {
@@ -349,7 +345,7 @@ nav.show div.icon-close {
 
 #skills .cards .card i {
   font-size: 5rem;
-  color: var(--base-color);
+  color: var(--color);
   transition: color 0.3s;
 }
 
@@ -360,7 +356,7 @@ nav.show div.icon-close {
 #skills .cards .card h4 {
   text-transform: uppercase;
   margin-top: 1rem;
-  color: var(--base-color);
+  color: var(--color);
 }
 
 /*============  Projects  ===========*/
@@ -491,6 +487,11 @@ footer.section {
     padding: 5rem 0;
   }
 
+  header {
+    height: 4rem;
+    align-items: center;
+  }
+
   .section header,
   #projects header {
     max-width: 32rem;
@@ -518,6 +519,10 @@ footer.section {
     gap: 2rem;
   }
 
+  nav .menu ul li a .grid-icon-item {
+    font-size: 10rem;
+  }
+
   nav .menu ul a.title {
     font: 400 1rem var(--body-font);
     -webkit-font-smoothing: antialiased;
@@ -533,19 +538,12 @@ footer.section {
   }
 
   #home .container {
-    grid-auto-flow: column;
-    justify-content: space-between;
     margin: 0 auto;
-  }
-
-  #home .image {
-    order: 1;
+    height: 60vh;
   }
 
   #home .text {
-    order: 0;
-    max-width: 24rem;
-    text-align: left;
+    text-align: center;
     margin-top: 5rem;
   }
 
