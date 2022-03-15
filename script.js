@@ -24,22 +24,6 @@ function changeHeaderWhenScroll() {
   }
 }
 
-/* Testimonials with Swiper*/
-const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  pagination: {
-    el: '.swiper-pagination'
-  },
-  mousewheel: true,
-  keyboard: true,
-  breakpoints: {
-    767: {
-      slidesPerView: 2,
-      setWrapperSize: true
-    }
-  }
-})
-
 /*ScroolReavels Mostrar elementos quando der scroll*/
 
 const scrollReveal = ScrollReveal({
@@ -53,7 +37,7 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #skills header, #skills .card,
-  #testimonials header, #testimonials .testimonials
+  #projects .project-cards, #project .project-cards,
   #contact .text, #contact .links, footer .brand, footer .social
   `,
   { interval: 100 }
