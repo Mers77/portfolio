@@ -330,6 +330,11 @@ nav.show div.icon-close {
 #about .container {
   text-align: center;
 }
+
+#about img{
+  margin-bottom: 1rem;
+}
+
 #about .container .button {
   margin-bottom: 2rem;
 }
