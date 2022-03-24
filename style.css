@@ -31,6 +31,7 @@ img {
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: rgb(10, 0, 20);
+  --body-color2: rgb(15, 0, 30);
   --color: #6610f2;
 
   /*======Fonts======*/
@@ -82,6 +83,19 @@ body {
 
 .button:hover {
   background: #5000b9;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5000b9;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 8px;
 }
 
 /*====  LAYOUT ============================ */
@@ -214,7 +228,7 @@ nav ul li a::after {
   content: '';
   width: 0%;
   height: 2px;
-  background: var(--color);
+  background: rgba(103, 16, 242, 0.185);
 
   position: absolute;
   left: 0;
@@ -298,6 +312,29 @@ nav.show div.icon-close {
 /*====  HOME ============================ */
 #home {
   overflow: hidden;
+  background: url(assets/images/home.jpg);
+  animation: back 5s;
+}
+
+@keyframes back {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.banner {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.banner {
+  position: absolute;
+  top: 30%;
+  left: 15%;
 }
 
 #home .container {
@@ -340,6 +377,10 @@ nav.show div.icon-close {
 }
 
 /*============  Skills  ===========*/
+
+#skills{
+  background: var(--body-color2);
+}
 
 .skill-card {
   padding: 2rem 2rem;
@@ -397,6 +438,10 @@ nav.show div.icon-close {
 }
 
 /*============  Projects  ===========*/
+
+#projects{
+  background-color: var(--body-color2);
+}
 
 .project-card {
   padding: 2rem 2rem;
