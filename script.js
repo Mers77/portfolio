@@ -37,11 +37,12 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #about .image, #about .text,
   #technology header, #technology .card,
-  #skills .skill-cards, #skills .project-card,
-  #projects .project-cards, #projects .project-card,
-  #contact .text, #contact .links, footer .brand, footer .social
+  #skills .skill-cards, #skills .skill-card,
+  #projects .project-card, 
+  #contact .text, #contact .links, 
+  footer .brand, footer .social
   `,
-  { interval: 100 }
+  { interval: 50 }
 )
 
 const backToTopButton = document.querySelector('.back-to-top')
