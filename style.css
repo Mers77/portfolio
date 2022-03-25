@@ -338,6 +338,25 @@ nav.show div.icon-close {
 #home .text p {
   font-size: 1.55rem;
   margin-bottom: 2rem;
+  border-right: 2px solid #000;
+  max-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: pisca normal infinite .8s, escrever normal 5s steps(55) both;
+  text-align: center;
+  margin: auto;
+}
+
+@keyframes escrever {
+  100%{
+    max-width: 50%;
+  }
+}
+
+@keyframes pisca {
+  100%{
+    border-right-color: transparent ;
+  }
 }
 
 /*============  About  ===========*/
