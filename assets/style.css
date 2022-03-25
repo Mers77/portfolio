@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?n1cakh');
-  src:  url('fonts/icomoon.eot?n1cakh#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?n1cakh') format('truetype'),
-    url('fonts/icomoon.woff?n1cakh') format('woff'),
-    url('fonts/icomoon.svg?n1cakh#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?zcdhzq');
+  src:  url('fonts/icomoon.eot?zcdhzq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?zcdhzq') format('truetype'),
+    url('fonts/icomoon.woff?zcdhzq') format('woff'),
+    url('fonts/icomoon.svg?zcdhzq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,23 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-calculator:before {
-  content: "\e913";
+.icon-game-controller:before {
+  content: "\e919";
 }
-.icon-close:before {
-  content: "\e90c";
-}
-.icon-menu:before {
-  content: "\e90d";
+.icon-arrow-up:before {
+  content: "\e918";
 }
 .icon-document-file-sql:before {
   content: "\e900";
-}
-.icon-sass:before {
-  content: "\e916";
-}
-.icon-todoist:before {
-  content: "\e914";
 }
 .icon-html5:before {
   content: "\e901";
@@ -51,9 +42,6 @@
 }
 .icon-typescript:before {
   content: "\e903";
-}
-.icon-figma:before {
-  content: "\e904";
 }
 .icon-bootstrap:before {
   content: "\e905";
@@ -67,135 +55,63 @@
 .icon-phone:before {
   content: "\e908";
 }
-.icon-telephone:before {
-  content: "\e908";
-}
-.icon-contact:before {
-  content: "\e908";
-}
-.icon-support:before {
-  content: "\e908";
-}
-.icon-call:before {
-  content: "\e908";
-}
-.icon-mail:before {
-  content: "\e917";
-}
-.icon-contact1:before {
-  content: "\e917";
-}
-.icon-support1:before {
-  content: "\e917";
-}
-.icon-newsletter:before {
-  content: "\e917";
-}
-.icon-letter:before {
-  content: "\e917";
-}
-.icon-email:before {
-  content: "\e917";
-}
-.icon-envelop:before {
-  content: "\e917";
-}
-.icon-social:before {
-  content: "\e917";
-}
-.icon-linkedin:before {
-  content: "\e90e";
-}
-.icon-brand:before {
-  content: "\e90e";
-}
-.icon-social1:before {
-  content: "\e90e";
-}
-.icon-github:before {
-  content: "\e90f";
-}
-.icon-brand2:before {
-  content: "\e90f";
-}
-.icon-octacat:before {
-  content: "\e90f";
-}
-.icon-social11:before {
-  content: "\e90f";
-}
-.icon-whatsapp:before {
-  content: "\e910";
-}
-.icon-brand3:before {
-  content: "\e910";
-}
-.icon-social3:before {
-  content: "\e910";
-}
-.icon-instagram:before {
-  content: "\e911";
-}
-.icon-brand4:before {
-  content: "\e911";
-}
-.icon-social4:before {
-  content: "\e911";
-}
 .icon-github1:before {
-  content: "\e909";
-}
-.icon-brand11:before {
-  content: "\e909";
-}
-.icon-octacat1:before {
-  content: "\e909";
-}
-.icon-social2:before {
   content: "\e909";
 }
 .icon-css3:before {
   content: "\e90a";
 }
-.icon-w3c:before {
-  content: "\e90a";
-}
 .icon-html-five:before {
   content: "\e90b";
 }
-.icon-w3c1:before {
-  content: "\e90b";
+.icon-close:before {
+  content: "\e90c";
+}
+.icon-menu:before {
+  content: "\e90d";
+}
+.icon-linkedin:before {
+  content: "\e90e";
+}
+.icon-github:before {
+  content: "\e90f";
+}
+.icon-whatsapp:before {
+  content: "\e910";
+}
+.icon-instagram:before {
+  content: "\e911";
+}
+.icon-arrow-up1:before {
+  content: "\e912";
+}
+.icon-calculator:before {
+  content: "\e913";
 }
 .icon-earth:before {
   content: "\e915";
 }
-.icon-globe:before {
-  content: "\e915";
+.icon-sass:before {
+  content: "\e916";
 }
-.icon-language:before {
-  content: "\e915";
+.icon-mail:before {
+  content: "\e917";
 }
-.icon-web:before {
-  content: "\e915";
+.icon-ruler:before {
+  content: "\e904";
 }
-.icon-internet:before {
-  content: "\e915";
+.icon-pencil:before {
+  content: "\e904";
 }
-.icon-sphere:before {
-  content: "\e915";
+.icon-design:before {
+  content: "\e904";
 }
-.icon-planet:before {
-  content: "\e915";
+.icon-document-edit:before {
+  content: "\e914";
 }
-.icon-arrow-up:before {
-  content: "\e912";
+.icon-display:before {
+  content: "\e956";
 }
-.icon-up:before {
-  content: "\e912";
-}
-.icon-upload:before {
-  content: "\e912";
-}
-.icon-top:before {
-  content: "\e912";
+.icon-embed2:before {
+  content: "\ea80";
 }

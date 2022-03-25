@@ -320,7 +320,7 @@ nav.show div.icon-close {
 }
 
 #home .button {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 #home .text {
@@ -345,11 +345,13 @@ nav.show div.icon-close {
   animation: pisca normal infinite .8s, escrever normal 5s steps(55) both;
   text-align: center;
   margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
 }
 
 @keyframes escrever {
   100%{
-    max-width: 50%;
+    max-width: 100%;
   }
 }
 
@@ -376,7 +378,7 @@ nav.show div.icon-close {
 /*============  Skills  ===========*/
 
 #skills{
-  background: var(--body-color);
+  margin-bottom: 2rem;
 }
 
 .skill-card {
@@ -388,9 +390,12 @@ nav.show div.icon-close {
   transition: border 0.3s;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.5);
-  margin-bottom: 1rem;
+  transition: border 1s;
 }
 
+.skill-card:hover{
+  border: 1px solid var(--color);
+}
 
 .skill-card p {
   margin-bottom: 1 rem;
@@ -427,7 +432,7 @@ nav.show div.icon-close {
 }
 
 #technology .cards .card i:hover {
-  color: #6200ff;
+  color: #3e00a1;
 }
 
 #technology .cards .card h4 {
@@ -629,6 +634,12 @@ footer.section {
   #home .text {
     text-align: center;
     margin-top: 5rem;
+  }
+
+  @keyframes escrever {
+    100%{
+      max-width: 50%;
+    }
   }
 
   #about .container {
