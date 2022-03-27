@@ -309,8 +309,9 @@ nav.show div.icon-close {
   overflow: hidden;
   height: 100vh;
   background: url(assets/images/home.jpg) no-repeat;
+  background-position: center center;
   background-size: cover;
-  background-blend-mode: dark rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken rgba(0, 0, 0, 0.7);
 }
 
 #home .container {
@@ -334,9 +335,11 @@ nav.show div.icon-close {
 #home .text h1 {
   margin-bottom: 1rem;
   font-size: 3rem;
+  letter-spacing: 0.2rem;
 }
 
 #home .text p {
+  color: #cecece;
   font-size: 1.55rem;
   margin-bottom: 2rem;
   border-right: 2px solid #000;
