@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ##  🚀 Como executar
 
-Caso queira utilizar ele diretamente na sua máquina, clone o projeto e acesse a pasta do mesmo. Rode utilizando um navegador web
+Caso queira utilizar ele diretamente na sua máquina, clone o projeto e acesse a pasta do mesmo. Rode utilizando um navegador web O aplicativo está disponível no seu navegador pelo endereço http://localhost:3000.
 
 ```bash
 $ git clone https://github.com/emersonlimaa/portfolio
@@ -22,7 +22,6 @@ $ cd portfolio
 ```
 
 Ou acessar o site Online em [ Portfolio - Emerson Lima ](https://emersonlima.vercel.app)
-O aplicativo está disponível no seu navegador pelo endereço http://localhost:3000.
 
 ##  📝 Licença
 
