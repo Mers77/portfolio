@@ -78,7 +78,6 @@ body {
   border-radius: 0.4rem;
   font: 500 1rem var(--body-font);
   transition: background 1s;
-  margin-top: 1rem;
 }
 
 .button:hover {
@@ -450,10 +449,11 @@ nav.show div.icon-close {
 }
 
 .project-card {
+  width: 25rem;
   background-color: var(--body-color-light);
   padding: 2rem 2rem;
   text-align: center;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.5);
   transition: border 1s;
   border-radius: 5px;
@@ -480,6 +480,12 @@ nav.show div.icon-close {
   margin-bottom: 1rem;
   color: var(--color);
 }
+
+.buttonIcon i{
+  margin-top: 1.3rem;
+  font-size: 2.8rem;
+}
+
 
 /*============  Contact  ===========*/
 
