@@ -411,6 +411,10 @@ nav.show div.icon-close {
 
 /*======   Technology   ======*/
 
+#technology {
+  margin-top: 3rem;
+}
+
 #technology .cards {
   grid-template-columns: 1fr 1fr;
   text-align: center;
@@ -729,9 +733,11 @@ footer.section {
 
 @media (min-width: 1023px) {
   .container {
+    max-width: 980px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .section {
     padding: 5rem 0;
   }
@@ -871,6 +877,12 @@ footer.section {
 }
 
 @media (min-width: 980px) {
+  .container {
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   :root {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
@@ -914,28 +926,6 @@ footer.section {
     margin-top: var(--header-height);
   }
 
-  nav .menu ul {
-    display: flex;
-    gap: 2rem;
-  }
-
-  nav .menu ul li a .grid-icon-item {
-    font-size: 10rem;
-  }
-
-  nav .menu ul a.title {
-    font: 400 1rem var(--body-font);
-    -webkit-font-smoothing: antialiased;
-  }
-
-  nav .menu ul li a.title.active {
-    font-weight: bold;
-    -webkit-font-smoothing: auto;
-  }
-
-  nav .icon-menu {
-    display: none;
-  }
 
   #home .container {
     margin: 0 auto;
@@ -956,10 +946,6 @@ footer.section {
   #about .title {
     order: 0;
     text-align: left;
-  }
-
-  #projects .project-cards {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #projects .project-cards .project-card a {
