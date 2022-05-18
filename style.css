@@ -593,7 +593,6 @@ footer.section {
 
   .section header,
   #projects header {
-    max-width: 32rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
