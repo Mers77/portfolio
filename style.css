@@ -484,6 +484,15 @@ nav.show div.icon-close {
   border: 1px solid rgba(0, 0, 0, 0.5);
   transition: border 1s;
   border-radius: 5px;
+  width: 18rem;
+  height: 30rem;
+}
+
+.project-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .project-card:hover {
