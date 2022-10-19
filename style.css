@@ -523,9 +523,8 @@ nav.show div.icon-close {
   gap: 1rem
 }
 
-.buttonIcon i{
-  font-size: 2.8rem;
-  color: var(--color);
+.button i{
+  font-size: 1.8rem;
 }
 
 
