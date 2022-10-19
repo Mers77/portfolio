@@ -485,7 +485,6 @@ nav.show div.icon-close {
   transition: border 1s;
   border-radius: 5px;
   width: 18rem;
-  height: 30rem;
 }
 
 .project-cards{
@@ -510,16 +509,23 @@ nav.show div.icon-close {
   margin: 1.5rem auto;
 }
 
-.project-card i {
+.project-card > i {
   display: block;
   font-size: 5rem;
   margin-bottom: 1rem;
   color: var(--color);
 }
 
+.project-card .buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem
+}
+
 .buttonIcon i{
-  margin-top: 1.3rem;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
+  color: var(--color);
 }
 
 
