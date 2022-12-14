@@ -368,10 +368,9 @@ nav.show div.icon-close {
 
 #about .container {
   text-align: center;
-  display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 #about img{
@@ -379,10 +378,7 @@ nav.show div.icon-close {
   width: 15rem;
 }
 
-#about .content{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#about .conten{
   gap: 3rem;
 }
 /*============  Skills  ===========*/
@@ -433,7 +429,7 @@ nav.show div.icon-close {
 
 #technology{
   margin: 1rem auto;
-  width: 56rem;
+  max-width: 56rem;
 }
 
 #technology ul {
@@ -626,6 +622,7 @@ footer.section {
 
   transition: 0.4s;
   transform: translateY(100%);
+  box-shadow: 5px 5px 5px #000;
 }
 
 .back-to-top.show {
