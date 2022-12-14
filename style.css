@@ -401,8 +401,8 @@ nav.show div.icon-close {
   border-radius: 5px;
   border: 1px solid #5000b94d;
   transition: all 1s;
-  width: 18rem;
-  height: 18rem;
+  width: 17rem;
+  height: 17rem;
 }
 
 .skill-card:hover{
