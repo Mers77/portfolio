@@ -704,20 +704,23 @@ footer.section {
     text-align: center;
     margin-top: 5rem;
   }
-
-  #about .container {
-    grid-auto-flow: column;
-    margin: 0 auto;
-  }
-  #about .content {
+  
+  #about .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+  }
+
+  #about h3{
+    text-align: center;
     margin: 0 auto;
   }
 
-  #about .text,
-  #about .title {
-    order: 0;
-    text-align: left;
+  #about p{
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 2rem;
   }
 
   #projects{
