@@ -370,6 +370,7 @@ nav.show div.icon-close {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 #about .container {
   text-align: center;
