@@ -365,7 +365,12 @@ nav.show div.icon-close {
 }
 
 /*============  About  ===========*/
-
+#about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 #about .container {
   text-align: center;
   align-items: center;
