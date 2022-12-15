@@ -434,6 +434,7 @@ nav.show div.icon-close {
 
 #technology ul {
   display: flex;
+  flex-direction: row;
   gap: 0.5rem;
   justify-content: center;
   align-items: center;
@@ -633,9 +634,9 @@ footer.section {
 
 /*Responsive*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1360px) {
   .container {
-    max-width: 1120px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -704,12 +705,29 @@ footer.section {
     text-align: center;
     margin-top: 5rem;
   }
-  
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
   #about .container{
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 3rem
+  }
+  #about .aboutContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
   }
 
   #about h3{
@@ -717,10 +735,18 @@ footer.section {
     margin: 0 auto;
   }
 
+  #about img{
+    order: 0;
+  }
+
   #about p{
     text-align: justify;
     margin: 0 auto;
     margin-bottom: 2rem;
+  }
+
+  #skills .info p{
+    text-align: center;
   }
 
   #projects{
