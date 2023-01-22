@@ -379,9 +379,9 @@ nav.show div.icon-close {
   margin-bottom: 1rem;
 }
 
-#about img{
-  border-radius: 50%;
-  width: 15rem;
+#about .container img{
+  clip-path: circle();
+  height: 20rem;
 }
 
 #about .conten{
