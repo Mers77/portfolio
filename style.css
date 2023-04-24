@@ -798,9 +798,12 @@ footer.section {
   }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 768px) {
+  html{
+    font-size: 87.5%;
+  }
   .container {
-    max-width: 930px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
